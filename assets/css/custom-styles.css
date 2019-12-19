@@ -1,0 +1,109 @@
+/* general css files for all the pages layout and design */
+.row-chk{
+    border: thin solid blue;
+}
+
+.col-chk{
+    border: thin solid green;
+}
+
+.chk{
+	border: thin solid black;
+}
+
+.hd{
+  display: none;
+}
+/* hiding the number defualt css*/
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.cus-number{
+	white-space:nowrap !important;
+}
+
+.btn-adddesc{
+	margin-top: 2% !important;
+}
+
+.lbl-grandT{
+	margin-top: 7px !important;
+	margin-left: 25px !important;
+}
+
+thead > tr > th{
+    text-align: center !important;
+}
+
+strong{
+    letter-spacing: 1px;
+}
+
+/*aligning text*/
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* aligning ol horizontally */
+.cus-ol{
+/*padding: 20px; */
+/*list-style-type:decimal;*/
+/*list-style-type:square;*/
+  margin-left: 13px;
+/*  border:thin solid blue;*/
+
+}
+.cus-ol > li {
+/*    float:left;*/
+    margin: 0 10px;
+    padding: 0 10px;
+    display: block;
+/*    border: thin solid blue;*/
+}
+
+.cus-lbl{
+    width: 58px;
+}
+
+.cus-b-total{
+    border-top-color: #ebeced!important;
+    border-bottom: 2px solid #ebeced!important
+}
+
+.select2-results__option{
+    text-transform:capitalize !important;
+}
+
+/* centered a col */
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
+
+/* for the jquery ui autocomplete features */
+.ui-autocomplete {
+    height: 200px !important;
+    overflow-y: scroll !important;
+    overflow-x: hidden !important;
+}
+
+/* for the datatable select entries */
+div.dataTables_wrapper div.dataTables_length select{
+    width: 90px !important;
+}
+
+.cnter-amount{
+    text-align: center !important;
+}

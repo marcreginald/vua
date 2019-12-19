@@ -1,0 +1,83 @@
+/* VUA CUSTOM CSS FILE */
+.sidebar-highlight {
+    background-color: 'sidebar-highlight-danger';
+}
+
+/* CREATE TRANSACTION CUSTOM CSS */
+
+.image-upload > input {
+    display: none;
+}
+
+.fa-file-image-o {
+    font-size: 37px;
+    /* border: thin solid blue; */
+    /* margin-left: 35px; */
+    margin-left: 130px;
+    margin-top: 5%;
+    cursor: pointer;
+}
+
+/*.modal-backdrop.in {
+    opacity: 1 !important;
+}*/
+
+/* FILE INPUT CAPITALIZATION MAGIC :) */
+
+/* FNAME AND THE LNAME */
+.field-text{
+	text-transform: capitalize;
+}
+
+/* CUSTOM STYLE FOR THE PASSPORT NUMBER */
+.field-passnum{
+    text-transform: uppercase;
+}
+
+/* LIST OF EDIT TRANSAC CUSTOM CSS */
+
+/* HIDING THE INPUT PAIRED WITH THE IMAGE UPLOAD DIV */
+.image-upload > input
+{
+    display: none;
+}
+
+/* custom font-awesome of camera (old version) */
+.fa-file-image-o{
+    font-size: 37px;
+    /* border: thin solid blue; */
+    /* margin-left: 35px; */
+    margin-left: 130px;
+    margin-top: 5%;
+    cursor: pointer;
+}
+
+/* custom edit link button */
+
+.lk-edit{
+    text-decoration: underline;
+    text-decoration-color: blue;
+    color: blue;
+    cursor: pointer;
+}
+
+
+/* custom notification link bell color: */
+.navbar-danger .navbar-nav>li>a.has-notify:before{
+    background: rgba(228, 16, 16, 0.95) !important;
+}
+
+
+
+
+
+
+
+
+
+/* 
+	CSS LAST UPDATED 
+	by: JOHN LITO BARDINAS
+	date:2-18-2018 
+	date:2-23-2018 => adding the lk edit class declaration
+*/

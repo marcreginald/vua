@@ -1,0 +1,51 @@
+adittrans_v.php
+7:43 AM 2-12-2018
+
+<!-- passport image -->
+<input type="hidden" name="old_passport" value="<?= str_replace('uploads/', '', $transac_dat->attached_passport); ?>">
+<input id="in-passport-edit" type="file" name="attached_passport" class="m-t-5 m-l-5" value="<?= str_replace('uploads/', '', $transac_dat->attached_passport); ?>" disabled/>
+
+
+<!-- e ticket -->
+<input type="hidden" name="old_eticket" value="<?= str_replace('uploads/', '', $transac_dat->attached_eticket); ?>">
+<input id="in-eticket-edit" type="file" name="attached_eticket" class="m-t-5 m-l-5" value="<?= str_replace('uploads/', '', $transac_dat->attached_eticket); ?>" disabled --/>
+
+
+
+
+
+createtrans_v.php
+10:26 AM 3/5/2018
+
+<!-- new eticket image -->
+<!--<div class="col-md-5 col-lg-5 m-b-10" style="margin-left: 47px;">
+    <label> <strong> E-Ticket </strong> </label><br>
+    <div class="form-group-sm text-center" style="white-space:nowrap;">
+        <img src="<?= //base_url('uploads/passport.png') ?>" alt="User default image" class="img chk" style="width: 467.2px; height: 294px;" id="img-eticket">
+        <input id="in-eticket" type="file" name="attached_eticket" class="m-t-5 m-l-5" accept="image/x-png,image/jpeg"/>
+    </div>
+</div>--><!--./eTicket-->
+
+
+
+sidebar_sec.php
+10:29 AM 3/5/2018
+
+<!-- remove li element in the sidebar -->
+<!--<li id="requestletter" class="hd">
+    <a href="<?= site_url('requestletter'); ?>">
+        <i class="fa fa-file-pdf-o"></i>
+        <span>Request Letter</span>
+    </a>
+</li>  requestletter (3:27PM 2/23/2018)-->
+
+
+edittrans_v.php
+11:08 AM 3/5/2018
+
+<div class="col-md-5 col-lg-5 m-b-10" style="margin-left: 47px;">
+<label> <strong> E-Ticket </strong> </label><br>
+<div class="form-group-sm text-center" style="white-space:nowrap;">
+	<img src="<?= base_url($transac_dat->attached_eticket); ?>" alt="User default image" class="img chk" style="width: 467.2px; height: 294px;" id="img-eticket-edit">
+</div>
+</div><!--./eTicket-->
